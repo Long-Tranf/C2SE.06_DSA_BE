@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('membership_fee_details', function (Blueprint $table) {
             $table->id();
-            $table->integer('id');
+
             $table->integer('amount_id');
             $table->integer('member_id');
             $table->string('status');

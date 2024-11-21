@@ -11,7 +11,7 @@ return new class extends Migration
     {
         Schema::create('photo_libraries', function (Blueprint $table) {
             $table->id();
-            $table->integer('id');
+
             $table->string('url');
             $table->string('title');
             $table->boolean('is_open');

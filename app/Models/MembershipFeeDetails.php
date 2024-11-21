@@ -10,7 +10,7 @@ class MembershipFeeDetails extends Model
     use HasFactory;
     protected $table = ' membershipfeedetails';
     protected $fillable =[
-        'id',
+        
         'amount_id',
         'member_id',
         'status',

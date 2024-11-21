@@ -11,7 +11,7 @@ class ConfigBanners extends Model
     protected $table = 'configbanners';
 
     protected $fillable = [
-        'id',
+
         'url',
         'is_open',
     ];
